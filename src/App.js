@@ -1,13 +1,13 @@
 import './App.css'
-import MisProductos from './paginas/MisProductos';
+import Encabezado from './Encabezado.jsx';
+import MisProductos from './MisProductos.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       </header>
-          <MisProductos />
-          <MisProductos />
+    <div>
+      <Encabezado />
+        <MisProductos />
+        <MisProductos />
     </div>
   );
 }

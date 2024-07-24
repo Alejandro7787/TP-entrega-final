@@ -1,8 +1,7 @@
 import React from "react";
-import logo from './logo.svg';
-import './estilos/MisProductos.css'
-
-var talles = ['S','M','L','XL']
+import logo from './img/logo.svg';
+import './MisProductos.css'
+import OpcionesConSelect from './Opciones.jsx'
 
 function MisProductos(props) {
   return (
@@ -11,12 +10,10 @@ function MisProductos(props) {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Esta va ser la descripcion</p>
       </div>
-      <div className='listado-productos'>
-      <section className='box item1' name="Talle">
-       <option value={''}>Talle: {props.talles}</option>
-      </section>
+      <div className="listado-productos">
+        <OpcionesConSelect />
       </div>
-      </div>
+    </div>
   )
   
 }
