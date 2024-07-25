@@ -1,48 +1,63 @@
-import { useState } from "react";
+import React, { useState } from 'react';
 
-function OpcionesConSelect() {
-    const [option, setOption] = useState('opcion1')
-    const manejarCambios = (event) => {
-        setOption(event.target.value)
-    }
-    return (
-        <form className="box item1">
-            <label>
-                Color:
-                <select className="optiones-value" value={option} onChange={manejarCambios}>
-                    <option value="Rojo">Rojo</option>
-                    <option value="Marrón">Marrón</option>
-                    <option value="Verde">Verde</option>
-                    <option value="Azul">Azul</option>
-                </select>
-            </label>
-            <label>
-                Talles:
-                <select className="optiones-value" value={option} onChange={manejarCambios}>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                </select>
-            </label>
-            <label>
-                Cantidad:
-                <select className="optiones-value" value={option} onChange={manejarCambios}>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </label>
-            <label>
-                Entrega:
-                <select className="optiones-value" value={option} onChange={manejarCambios}>
-                    <option value="Correo">Correo</option>
-                    <option value="Retirar">Retirar</option>
-                </select>
-            </label>
-        </form>
-    )
+function OpcionesConSelect(props) {
+  const [color, setColor] = useState('');
+  
+ 
+const [talle, setTalle] = useState('');
+  
+ 
+const [cantidad, setCantidad] = useState('');
+  
+ 
+const [entrega, setEntrega] = useState('');
+
+  
+
+ 
+return (
+
+<form className="box item1">
+      <label>
+        {props.op1}
+        <select className="optiones-value" value={color} onChange={(e) => setColor(e.target.value)}>
+          <option value="">Selecciona un color</option>
+          <option value="Rojo">Rojo</option>
+          <option value="Marrón">Marrón</option>
+          <option value="Verde">Verde</option>
+          <option value="Azul">Azul</option>
+        </select>
+      </label>
+      <label>
+        {props.op2}
+        <select className="optiones-value" value={talle} onChange={(e) => setTalle(e.target.value)}>
+          <option value="">Selecciona un talle</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </label>
+      <label>
+        {props.op3}
+        <select className="optiones-value" value={cantidad} onChange={(e) => setCantidad(e.target.value)}>
+          <option value="">Selecciona una cantidad</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </label>
+      <label>
+        {props.op4}
+        <select className="optiones-value" value={entrega} onChange={(e) => setEntrega(e.target.value)}>
+          <option value="">Elegir...</option>
+          <option value="Correo">Correo</option>
+          <option value="Retirar">Retirar</option>
+        </select>
+      </label>
+    </form>
+  );
 }
 
 export default OpcionesConSelect;
