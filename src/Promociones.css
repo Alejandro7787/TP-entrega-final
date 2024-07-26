@@ -1,20 +1,25 @@
-.flex-carrusel{
-    display: flex;
-    align-content: space-between;
-    margin: 25px 100px 25px 100px;
-    gap: 50px;
-    width: 50%;
+.grid-carrusel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    margin: 25px 5% 25px 5%;
+    gap: 5%;
     height: 500px;
     }
 
-    .flex-productos-cr{
-    width: 50%;
-    }
-    
-    .carousel-caption{
-    top: 65%;
+    .d-block{
+height: 500px;
+width: 100%;
     }
 
+    .texto-carrusel{
+        color:antiquewhite;
+    }
+
+    .flex-productos-cr{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    }
     
     .boton{
         padding: 5px;
