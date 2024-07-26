@@ -45,8 +45,8 @@ const Encabezado = () => {
                         <ul style={{ '--cantidad-items': '4.5' }}>
                             <li>Pantalones</li><br></br>
                             <li>Remera</li><br></br>
-                            <li>Accesorios</li><br></br>
-                            <li>Calzados</li><br></br>
+                            <li>Camisas</li><br></br>
+                            <li>Bermudas</li><br></br>
                         </ul>
                     </li>
                     <li><a href="#">Promociones</a></li>

@@ -1,0 +1,21 @@
+.flex-carrusel{
+    display: flex;
+    align-content: space-between;
+    margin: 25px 100px 25px 100px;
+    gap: 50px;
+    width: 50%;
+    height: 500px;
+    }
+
+    .flex-productos-cr{
+    width: 50%;
+    }
+    
+    .carousel-caption{
+    top: 65%;
+    }
+
+    
+    .boton{
+        padding: 5px;
+    }

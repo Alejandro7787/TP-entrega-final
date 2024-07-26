@@ -19,8 +19,17 @@
     grid-row: 1/2;
     display: flex;
     gap: 2.5%;
-    align-content: space-between;
 }
+
+.parrafosP{
+  margin-left: 100px;
+  align-content: space-between;
+  text-align: start;
+}
+
+.caja1-img{
+  width: 400px;
+  }
   
   .box {
     display: flex;

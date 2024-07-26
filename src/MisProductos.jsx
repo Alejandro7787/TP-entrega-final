@@ -8,7 +8,9 @@ function MisProductos(props) {
     <div className='grid-productos'>
       <div className='caja1'>
         <img src={props.imagen} className="caja1-img" alt="productos" />
-        <p>{props.parrafo}</p>
+        <p className="parrafosP">{props.parrafo} <br></br>
+        <button>Me lo llevo!!</button>
+        </p>
       </div>
       <OpcionesConSelect className="listado-productos" 
       op1= 'Color'
