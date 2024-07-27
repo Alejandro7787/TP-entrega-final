@@ -1,6 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import remera from './img/bosque.png';
+import promo1 from './img/promo1.jpg';
+import promo2 from './img/promo2.jpg';
+import promo3 from './img/promo3.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Encabezado from './Encabezado';
 import Pie from './Pie';
@@ -17,36 +19,28 @@ function Promociones() {
       <Carousel.Item>
         <img
           className="d-block"
-          src={remera}
+          src={promo1}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5 className='texto-carrusel'>First slide label</h5>
-          <p className='texto-carrusel'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block"
-          src={remera}
+          src={promo2}
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5 className='texto-carrusel'>Second slide label</h5>
-          <p className='texto-carrusel'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
        <Carousel.Item>
           <img
             className="d-block"
-            src={remera}
+            src={promo3}
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h5 className='texto-carrusel'>Third slide label</h5>
-            <p className='texto-carrusel'>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
           </Carousel.Caption>
         </Carousel.Item >
       </Carousel>

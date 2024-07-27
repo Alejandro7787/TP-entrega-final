@@ -1,10 +1,10 @@
 import './App.css';
-import Promociones from './Promociones';
+import Inicio from './Inicio';
 
 function App() {
   return (
     <div>
-      <Promociones />
+      <Inicio />
     </div>
   );
 }

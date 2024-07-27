@@ -32,14 +32,14 @@ const Encabezado = () => {
 
     return (
         <header>
-            <h1>La Tienda</h1>
+            <h1 className="titulo">La Tienda</h1>
             <button id="abrir" className="abrir-menu">
                 <img src={chaqueta} alt="menu"/>
             </button>
             <nav className="nav" id="nav">
                 <button className="cerrar-menu" id="cerrar">Cerrar</button>
                 <ul className="nav-list">
-                    <li><a href="#">Conocenos</a></li>
+                    <li><a href="#">Inicio</a></li>
                     <li>
                         <a href="#">Productos</a>
                         <ul style={{ '--cantidad-items': '4.5' }}>

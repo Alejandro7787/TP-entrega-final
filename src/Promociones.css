@@ -12,10 +12,6 @@ height: 500px;
 width: 100%;
     }
 
-    .texto-carrusel{
-        color:antiquewhite;
-    }
-
     .flex-productos-cr{
     grid-column: 2/3;
     grid-row: 1/2;
