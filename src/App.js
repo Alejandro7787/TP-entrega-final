@@ -1,5 +1,5 @@
 import './App.css';
-import Inicio from './Inicio';
+import Inicio from './componentes/Inicio';
 
 function App() {
   return (
