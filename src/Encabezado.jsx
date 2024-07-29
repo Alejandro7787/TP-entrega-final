@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import './Navegador.css';
-
+import './Encabezado.css';
+import { Outlet, Link } from "react-router-dom"
 import chaqueta from './img/chaqueta.png';
 
 const Encabezado = () => {
@@ -39,9 +39,9 @@ const Encabezado = () => {
             <nav className="nav" id="nav">
                 <button className="cerrar-menu" id="cerrar">Cerrar</button>
                 <ul className="nav-list">
-                    <li><a href="#">Inicio</a></li>
+                    <li><Link to= "/Inicio">Inicio</Link></li>
                     <li>
-                        <a href="#">Productos</a>
+                    <Link to= "/Productos">Productos</Link>
                         <ul style={{ '--cantidad-items': '4.5' }}>
                             <li>Pantalones</li><br></br>
                             <li>Remera</li><br></br>
@@ -49,10 +49,11 @@ const Encabezado = () => {
                             <li>Bermudas</li><br></br>
                         </ul>
                     </li>
-                    <li><a href="#">Promociones</a></li>
-                    <li><a href="#">Contactanos</a></li>
+                    <li><Link to= "/Promociones">Promociones</Link></li>
+                    <li><Link to= "/Conocenos">Conocenos</Link></li>
                 </ul>
             </nav>
+            <Outlet />
         </header>
     );
 };

@@ -1,0 +1,33 @@
+.grid-carrusel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    margin: 25px;
+    gap: 5%;
+    height: 500px;
+    }
+
+    .d-block{
+    height: 500px;
+    width: 100%;
+    }
+
+    .flex-productos-cr{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    }
+    
+    .boton{
+     padding: 5px;
+    }
+
+    @media screen and (max-width: 750px) {
+        .grid-carrusel{
+            display: flex;
+            flex-direction: column;
+            
+            }
+            .flex-productos-cr{
+                overflow: hidden;
+            }
+    }

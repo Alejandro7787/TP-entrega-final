@@ -1,5 +1,5 @@
 import React from 'react'
-import pie from './pie.css'
+import './Pie.css';
 
 function Pie() {
   return (
@@ -18,9 +18,9 @@ function Pie() {
                         <li><a href="formulario.html">Contactanos</a></li>
                     </ul>
                 </div>
-            </div>
-            <div className="footerBottom">
-             <p>Copyright &copy;2024; Diseñado por <span class="designer">AAlmiron</span></p>
+                <div className="footerBottom">
+                <p>Copyright &copy;2024; Diseñado por <span class="designer">AAlmiron</span></p>
+                </div>
             </div>
         </footer>
   )

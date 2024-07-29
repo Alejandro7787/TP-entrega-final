@@ -13,15 +13,13 @@ const [cantidad, setCantidad] = useState('');
 const [entrega, setEntrega] = useState('');
 
   
-
- 
 return (
 
 <form className="box item1">
       <label>
         {props.op1}
         <select className="optiones-value" value={color} onChange={(e) => setColor(e.target.value)}>
-          <option value="">Selecciona un color</option>
+          <option value="">Elegir...</option>
           <option value="Rojo">Rojo</option>
           <option value="Marrón">Marrón</option>
           <option value="Verde">Verde</option>
@@ -31,7 +29,7 @@ return (
       <label>
         {props.op2}
         <select className="optiones-value" value={talle} onChange={(e) => setTalle(e.target.value)}>
-          <option value="">Selecciona un talle</option>
+          <option value="">Elegir...</option>
           <option value="S">S</option>
           <option value="M">M</option>
           <option value="L">L</option>
@@ -41,7 +39,7 @@ return (
       <label>
         {props.op3}
         <select className="optiones-value" value={cantidad} onChange={(e) => setCantidad(e.target.value)}>
-          <option value="">Selecciona una cantidad</option>
+          <option value="">Elegir...</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
