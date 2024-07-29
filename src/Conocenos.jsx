@@ -1,9 +1,15 @@
 import React from 'react'
+import Encabezado from './Encabezado'
+import Pie from './Pie';
 
 function Conocenos() {
   return (
     <div>
-      <h1>Hola a todos!</h1>
+      <Encabezado/>
+        <div>
+          
+        </div>
+      <Pie />
     </div>
   )
 }

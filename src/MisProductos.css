@@ -67,19 +67,19 @@
   }
 
   .caja1-img{
-    width: 75%;
-    height: 100%;
+    width: 60%;
+    height: 80%;
   }
   .parrafosP{
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .box {
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px rgba(135, 135, 135, 0.4);
-    margin: 0 5px 0 5px;
+    margin: 10px 5px 0 5px;
     }
     .item1 {
     height: 50px;

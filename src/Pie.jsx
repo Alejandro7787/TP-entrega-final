@@ -1,5 +1,6 @@
 import React from 'react'
 import './Pie.css';
+import { Outlet, Link } from "react-router-dom"
 
 function Pie() {
   return (
@@ -13,13 +14,15 @@ function Pie() {
                     <a target="_blank" rel='noopener noreferrer' href="https://www.youtube.com/"><i className="fa-brands fa-youtube"></i></a>
                 </div>
                 <div className="footerNav">
-                    <ul><li><a href="articulos.html">Conocenos</a></li>
-                        <li><a href="index.html">Productos</a></li>
-                        <li><a href="formulario.html">Contactanos</a></li>
+                    <ul>
+                    <li><Link to= "/Inicio">Inicio</Link></li>
+                    <li><Link to= "/Productos">Productos</Link></li>
+                    <li><Link to= "/Promociones">Promociones</Link></li>
+                    <li><Link to= "/Conocenos">Conocenos</Link></li>
                     </ul>
                 </div>
                 <div className="footerBottom">
-                <p>Copyright &copy;2024; Diseñado por <span class="designer">AAlmiron</span></p>
+                <p className='pfooter'>Copyright &copy;2024; Diseñado por <span class="designer">AAlmiron</span></p>
                 </div>
             </div>
         </footer>

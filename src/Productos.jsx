@@ -18,11 +18,11 @@ function Productos() {
         />
         <MisProductos 
         imagen= {require("./img/camisas catalogo.jpg")}
-        parrafo="este es el texto para mostrar"
+        parrafo="¡Eleva tu estilo con nuestras camisas! Elegantes, cómodas y perfectas para cualquier ocasión. ¡Hazlas tuyas hoy mismo!"
         />
         <MisProductos 
         imagen= {require("./img/bermudas catalogo.jpg")}
-        parrafo="este es el texto para mostrar"
+        parrafo="¡Disfruta el verano con nuestras bermudas! Frescas, y modernas. Perfectas para cualquier ocasión.¡No te quedes sin las tuyas!"
         />
       </div>
         <Pie/>

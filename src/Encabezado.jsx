@@ -40,15 +40,7 @@ const Encabezado = () => {
                 <button className="cerrar-menu" id="cerrar">Cerrar</button>
                 <ul className="nav-list">
                     <li><Link to= "/Inicio">Inicio</Link></li>
-                    <li>
-                    <Link to= "/Productos">Productos</Link>
-                        <ul style={{ '--cantidad-items': '4.5' }}>
-                            <li>Pantalones</li><br></br>
-                            <li>Remera</li><br></br>
-                            <li>Camisas</li><br></br>
-                            <li>Bermudas</li><br></br>
-                        </ul>
-                    </li>
+                    <li><Link to= "/Productos">Productos</Link></li>
                     <li><Link to= "/Promociones">Promociones</Link></li>
                     <li><Link to= "/Conocenos">Conocenos</Link></li>
                 </ul>

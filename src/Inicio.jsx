@@ -53,40 +53,40 @@ function Inicio() {
                 </figure>
             </figure>
         </div>
-        <p className="textop" id="p-ac-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsam alias, quaerat saepe excepturi quisquam dolor eligendi error nisi architecto illo aspernatur eum. Labore autem possimus harum, molestias eaque sequi?</p>
+        <p className="textop" id="p-ac-1">¡Descubre nuestra colección de indumentaria masculina! Ofrecemos prendas de alta calidad que combinan estilo y comodidad, perfectas para cualquier ocasión. Desde elegantes camisas hasta pantalones casuales y bermudas frescas, tenemos todo lo que necesitas para renovar tu guardarropa. ¡Luce increíble y siéntete cómodo todos los días con nuestra ropa!</p>
         <div className="flex-productos">
             <div className="accordion">
                 <div className="accordion-item">
                  <img src={img1} alt="SacoGris"/>
-                <div className="content">La mejor calidad, talles varios. Elegi el tuyo y lleva lo</div>
+                <div className="content">¡Descubre nuestra indumentaria masculina! Estilo y comodidad en cada prenda. ¡Renueva tu guardarropa hoy mismo!</div>
                 </div>
                 <div className="accordion-item">
                  <img src={img3} alt="RemeraDeportiva"/>
-                <div className="content">La mejor calidad, talles varios. Elegi el tuyo y lleva lo</div>
+                <div className="content">¡Descubre nuestra indumentaria masculina! Estilo y comodidad en cada prenda. ¡Renueva tu guardarropa hoy mismo!</div>
                 </div>
                 <div className="accordion-item">
                  <img src={img4} alt="GorroDeLana"/>
-                <div className="content">La mejor calidad, talles varios. Elegi el tuyo y lleva lo</div>
+                <div className="content">¡Descubre nuestra indumentaria masculina! Estilo y comodidad en cada prenda. ¡Renueva tu guardarropa hoy mismo!</div>
                 </div>
                 <div className="accordion-item">
                  <img src={img5} alt="Jeans"/>
-                <div className="content">La mejor calidad, talles varios. Elegi el tuyo y lleva lo.</div>
+                <div className="content">¡Descubre nuestra indumentaria masculina! Estilo y comodidad en cada prenda. ¡Renueva tu guardarropa hoy mismo!</div>
                 </div>
                 <div className="accordion-item">
                  <img src={img7} alt="Campera"/>
-                <div className="content">La mejor calidad, talles varios. Elegi el tuyo y lleva lo.</div>
+                <div className="content">¡Descubre nuestra indumentaria masculina! Estilo y comodidad en cada prenda. ¡Renueva tu guardarropa hoy mismo!</div>
                 </div>
                 <div className="accordion-item">
                  <img src={img8} alt="Pantalon"/>
-                <div className="content">La mejor calidad, talles varios. Elegi el tuyo y lleva lo.</div>
+                <div className="content">¡Descubre nuestra indumentaria masculina! Estilo y comodidad en cada prenda. ¡Renueva tu guardarropa hoy mismo!</div>
                 </div>
                 <div className="accordion-item">
                  <img src={img9} alt="Remera"/>
-                <div className="content">La mejor calidad, talles varios. Elegi el tuyo y lleva lo.</div>
+                <div className="content">¡Descubre nuestra indumentaria masculina! Estilo y comodidad en cada prenda. ¡Renueva tu guardarropa hoy mismo!</div>
                 </div>
                 <div className="accordion-item">
                  <img src={img10} alt="Remera"/>
-                <div className="content">La mejor calidad, talles varios. Elegi el tuyo y lleva lo.</div>
+                <div className="content">¡Descubre nuestra indumentaria masculina! Estilo y comodidad en cada prenda. ¡Renueva tu guardarropa hoy mismo!</div>
                 </div>
             </div>
         </div>
