@@ -1,5 +1,4 @@
 import React from 'react';
-import Encabezado from './Encabezado.jsx';
 import Pie from './Pie.jsx';
 import './Inicio.css';
 import slice1 from './img/slice1.jpg';
@@ -22,7 +21,7 @@ function Inicio() {
 
   return (
     <div>
-      <Encabezado />
+      {/* <Encabezado /> */}
       <div className="grid-contenedor1">
         <div className="ac--container">
             <figure>

@@ -1,34 +1,67 @@
+.conocenos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    background-color: #233d4d;
+}
+
+.nosotros{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.pnosotros{
+    grid-column: 2/3;
+    grid-row: 1/2;  
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.map{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
 .contenedor-section {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
     color: #ffff;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 20px;
     }
     h1 {
         margin: 20px;
     }
     .map iframe{
     width: 100%;
-    height: 60vh; 
+    height: 100%;
+    padding: 20px; 
+    border-radius: 50px;
     }
     .form-contenedor {
-    background-color: rgb(245, 189, 46);
-    border: 2px solid black;
+    background-color: #fcca46;
+    border: 10px solid black;
     position: relative;
-    width: 50%;
-    bottom: 10%;
-    left: 25%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 30px;
     }
     .titulo-form {
     font-size: 22px;
     text-align: center;
-    margin: 40px 0px;
     }
     .form {
-    background-color: rgb(225, 156, 65);
+    background-color: #233d4d;
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 20px;
     }
     .box {
     margin: 10px 10px;
@@ -65,4 +98,15 @@
     border-radius: 5px;
     height: 40px;
     margin: 10px auto;
+    }
+
+    @media screen and (max-width: 750px) {
+        .conocenos{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .map iframe{
+            height: 500px;
+            }
     }

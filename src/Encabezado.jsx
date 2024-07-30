@@ -32,7 +32,7 @@ const Encabezado = () => {
 
     return (
         <header>
-            <h1 className="titulo">La Tienda</h1>
+            <h1 className="titulo">Estilo Urbano</h1>
             <button id="abrir" className="abrir-menu">
                 <img src={chaqueta} alt="menu"/>
             </button>

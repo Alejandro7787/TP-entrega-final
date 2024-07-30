@@ -5,13 +5,11 @@ import promo2 from './img/promo2.jpg';
 import promo3 from './img/promo3.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Promociones.css';
-import Encabezado from './Encabezado';
 import Pie from './Pie';
 
 function Promociones() {
   return (
     <div>
-      <Encabezado />
         <div className='grid-carrusel'>
           <Carousel data-bs-theme="dark">
           <Carousel.Item>

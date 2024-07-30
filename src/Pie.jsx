@@ -25,6 +25,7 @@ function Pie() {
                 <p className='pfooter'>Copyright &copy;2024; Diseñado por <span class="designer">AAlmiron</span></p>
                 </div>
             </div>
+            <Outlet />
         </footer>
   )
 }
