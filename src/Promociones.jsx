@@ -42,7 +42,19 @@ function Promociones() {
           </Carousel>
 
           <div className="flex-productos-cr">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum iste, alias eaque temporibus placeat saepe, dolores ipsam libero voluptates reiciendis dolorem quisquam repudiandae sint animi. Ab voluptas officiis magnam.</p>
+            <p>¡Grandes Ofertas en Estilo Urbano!
+              <br></br>
+                ¡No te pierdas nuestras promociones exclusivas! Este mes, Estilo Urbano tiene todo lo que necesitas para renovar tu guardarropa con estilo y a precios increíbles.<br></br><br></br>
+
+                Descuentos hasta el 50% en toda la tienda:<br></br><br></br>
+
+                Moda de Verano: Prepárate para el sol con nuestra colección de vestidos, camisetas y shorts a precios irresistibles.<br></br><br></br>
+                Accesorios: Completa tu look con bolsos, sombreros y gafas de sol con descuentos especiales.<br></br><br></br>
+                Ropa Casual: Encuentra tus prendas favoritas para el día a día con rebajas que no puedes dejar pasar.<br></br><br></br>
+                Calzado: Desde sandalias hasta zapatillas, tenemos el calzado perfecto para cada ocasión con grandes descuentos.<br></br><br></br>
+                ¡Apurate, las promociones son por tiempo limitado!<br></br><br></br>
+
+                ¡Te esperamos en Estilo Urbano!</p>
             <button className="boton">Lo quiero!!</button>
           </div>
         </div>
